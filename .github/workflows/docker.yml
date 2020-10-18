@@ -47,6 +47,6 @@ jobs:
         with:
           context: .
           tags: |
-            losolio/evolvit:$(date +%s)
             losolio/evolvit:latest
+            losolio/evolvit:${{ github.run_number }}
      
