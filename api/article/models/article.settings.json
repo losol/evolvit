@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 155,
+      "required": true
+    },
+    "summary": {
+      "type": "text"
+    },
+    "story": {
+      "type": "dynamiczone",
+      "components": [
+        "storyblocks.richtext",
+        "storyblocks.image"
+      ]
+    }
+  }
+}

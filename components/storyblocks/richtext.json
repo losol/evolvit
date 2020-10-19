@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_storyblocks_richtexts",
+  "info": {
+    "name": "richtext",
+    "icon": "keyboard"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
