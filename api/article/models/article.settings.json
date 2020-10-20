@@ -16,15 +16,20 @@
       "maxLength": 155,
       "required": true
     },
-    "summary": {
+    "ingress": {
       "type": "text"
     },
     "story": {
       "type": "dynamiczone",
-      "components": [
-        "storyblocks.richtext",
-        "storyblocks.image"
-      ]
+      "components": ["storyblocks.richtext", "storyblocks.image"]
+    },
+    "summary": {
+      "type": "text"
+    },
+    "featured_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "storyblocks.image"
     }
   }
 }
