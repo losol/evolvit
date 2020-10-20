@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 155,
+      "required": true
+    },
+    "ingress": {
+      "type": "text"
+    },
+    "story": {
+      "type": "dynamiczone",
+      "components": ["storyblocks.richtext", "storyblocks.image"]
+    },
+    "summary": {
+      "type": "text"
+    },
+    "featured_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "storyblocks.image"
+    }
+  }
+}

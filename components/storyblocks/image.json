@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_storyblocks_images",
+  "info": {
+    "name": "image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "caption": {
+      "type": "text"
+    }
+  }
+}
