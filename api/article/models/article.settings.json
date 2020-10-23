@@ -21,7 +21,10 @@
     },
     "story": {
       "type": "dynamiczone",
-      "components": ["storyblocks.richtext", "storyblocks.image"]
+      "components": [
+        "storyblocks.richtext",
+        "storyblocks.image"
+      ]
     },
     "summary": {
       "type": "text"
@@ -30,6 +33,13 @@
       "type": "component",
       "repeatable": false,
       "component": "storyblocks.image"
+    },
+    "article_categories": {
+      "via": "articles",
+      "collection": "article-category"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
