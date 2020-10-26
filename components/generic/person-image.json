@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_generic_person_images",
+  "info": {
+    "name": "PersonImage",
+    "icon": "person-booth"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

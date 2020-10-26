@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "people",
+  "info": {
+    "name": "person"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "givenName": {
+      "type": "string",
+      "required": true
+    },
+    "familyName": {
+      "type": "string",
+      "required": false
+    },
+    "shortBio": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "generic.person-image"
+    }
+  }
+}
