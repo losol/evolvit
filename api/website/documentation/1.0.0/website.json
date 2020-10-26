@@ -600,6 +600,9 @@
               }
             }
           },
+          "mediaUrl": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -619,6 +622,9 @@
             "type": "string"
           },
           "url": {
+            "type": "string"
+          },
+          "mediaUrl": {
             "type": "string"
           },
           "published_at": {
